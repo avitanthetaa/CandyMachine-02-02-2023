@@ -22,6 +22,7 @@ import { MintNFTs } from "../components/MintNFTs";
 import { ShowNFTs } from "../components/ShowNFTs";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import dynamic from "next/dynamic";
+import Head from 'next/head';
 
 export default function Home() {
   const [network, setNetwork] = useState(
@@ -64,6 +65,10 @@ export default function Home() {
       (mod) => mod.WalletMultiButton
     )
   );
+
+  useEffect(() => {
+    document.title = "Echo Forest NFT";
+  }, []);
 
   return (
     <div>
