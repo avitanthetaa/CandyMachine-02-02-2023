@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../assets/Fonts/Gilroy/Gilroy-Medium.ttf);
+}
+
+* {
+  font-family: "Gilroy-Medium";
+}
+
+@font-face {
+  font-family: "TerminaW05-Bold";
+  src: url(../assets/Fonts/Termina/Termina\ W05\ Bold.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "TerminaW05-Bold";
+}
+
+body {
+  background: url(../assets/images/backgroundImage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  transition: 0.8s ease-in-out;
+  overflow-x: hidden;
+}
+
+.wallet-adapter-button-trigger {
+  background-color: black !important;
+}

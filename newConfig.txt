@@ -1,0 +1,64 @@
+{
+  "number": 10000,
+  "symbol": "ECHO",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": true,
+  "creators": [
+    {
+      "address": "8BW3QDxMzSQUD5trRMRKessp5Bntih19BhP5JdCp5uhW",
+      "share": 90
+    },
+    {
+      "address": "G9x7XrTgJo51HCCThrVqgAiL4sasJZ9mUgj7n9L7yyWZ",
+      "share": 10
+    }
+  ],
+  "uploadMethod": "nft_storage",
+  "awsConfig": null,
+  "nftStorageAuthToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGQyNzNEODEwYkM3YjEwNTNiNDMzMjE2NjYxRGM1Mjk3MjZiYzk0YzQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3NDgxMDcwOTM3MywibmFtZSI6ImVjaG8tbWFpbm5ldC0yIn0.AbD1JhD-4Y_IBcp6P0hV59qij8jhoF-6ZNvT0FO8l14",
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+      "mintLimit": {
+        "id": 1,
+        "limit": 100
+      }
+    },
+    "groups": [
+      {
+        "label": "OGs",
+        "guards": {
+          "startDate": {
+            "date": "2023-01-15T03:00:00Z"
+          },
+          "tokenBurn" : {
+            "amount": 1,
+            "mint": "H7vN6CdykFrhsZZtB1MksgBsEGfQFqeVew2teQUPV3Nn"
+        },
+          "solPayment": {
+            "value": 1,
+            "destination": "8BW3QDxMzSQUD5trRMRKessp5Bntih19BhP5JdCp5uhW"
+          }
+        }
+      },
+      {
+        "label": "Public",
+        "guards": {
+          "startDate": {
+            "date": "2023-02-03T21:00:00Z"
+          },
+          "solPayment": {
+            "value": 2,
+            "destination": "8BW3QDxMzSQUD5trRMRKessp5Bntih19BhP5JdCp5uhW"
+          }
+        }
+      }
+    ],
+    "redeemedAmount" : {
+      "maximum": 106
+  }
+    }
+}
