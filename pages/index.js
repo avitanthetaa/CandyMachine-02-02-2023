@@ -22,7 +22,7 @@ import { MintNFTs } from "../components/MintNFTs";
 import { ShowNFTs } from "../components/ShowNFTs";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import dynamic from "next/dynamic";
-import Head from 'next/head';
+import Head from "next/head";
 
 export default function Home() {
   const [network, setNetwork] = useState(
@@ -71,21 +71,27 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <ConnectionProvider endpoint={endpoint}>
-        <WalletProvider wallets={wallets} autoConnect>
-          <WalletModalProvider>
-            <MetaplexProvider>
-              <div className={styles.App}>
-                <WalletMultiButton />
-                {/* <ButtonWrapper /> */}
-                {/* <ShowNFTs onClusterChange={handleChange} /> */}
-                <MintNFTs onClusterChange={handleChange} />
-              </div>
-            </MetaplexProvider>
-          </WalletModalProvider>
-        </WalletProvider>
-      </ConnectionProvider>
-    </div>
+    <>
+      <div>
+       <h2 className="text-center md:text-lg pt-4">
+          We are using Vercel hosting server for Mint as Sugar V3 supports NEXT
+          JS
+        </h2>
+        <ConnectionProvider endpoint={endpoint}>
+          <WalletProvider wallets={wallets} autoConnect>
+            <WalletModalProvider>
+              <MetaplexProvider>
+                <div className={styles.App}>
+                  <WalletMultiButton />
+                  {/* <ButtonWrapper /> */}
+                  {/* <ShowNFTs onClusterChange={handleChange} /> */}
+                  <MintNFTs onClusterChange={handleChange} />
+                </div>
+              </MetaplexProvider>
+            </WalletModalProvider>
+          </WalletProvider>
+        </ConnectionProvider>
+      </div>
+    </>
   );
 }

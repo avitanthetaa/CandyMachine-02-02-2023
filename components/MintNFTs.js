@@ -307,7 +307,7 @@ export const MintNFTs = ({ onClusterChange }) => {
             <div className="max-w-xl md:bg-[#E1F2DD] rounded-lg md:shadow-lg px-10 md:border md:border-black">
               <div className="relative mx-auto">
                 <div className="absolute -top-[72px] left-[184px] h-32 w-32 rounded-full bg-black md:block hidden">
-                  <Image src={logo} alt="" />
+                  <Image src={logo} alt="logo" />
                 </div>
               </div>
               {/* ---->>>> Haading  <<<<---- */}
