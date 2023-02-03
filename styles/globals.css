@@ -31,7 +31,6 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center;
-  transition: 0.8s ease-in-out;
   overflow-x: hidden;
 }
 
