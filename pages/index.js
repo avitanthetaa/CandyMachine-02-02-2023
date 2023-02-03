@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <>
       <div>
-       <h2 className="text-center md:text-lg pt-4">
+        <h2 className="text-center md:text-lg pt-4">
           We are using Vercel hosting server for Mint as Sugar V3 supports NEXT
           JS
         </h2>
