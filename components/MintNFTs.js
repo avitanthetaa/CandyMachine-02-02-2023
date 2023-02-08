@@ -302,24 +302,25 @@ export const MintNFTs = ({ onClusterChange }) => {
  */}
 
       <div className="bg-home">
-        <div className=" m-auto container">
+        <div className="m-auto container">
           <div className="flex justify-center items-center text-center md:h-screen">
             <div className="max-w-xl md:bg-[#E1F2DD] rounded-lg md:shadow-lg px-10 md:border md:border-black">
               <div className="relative mx-auto">
-                <div className="absolute -top-[72px] left-[184px] h-32 w-32 rounded-full bg-black md:block hidden">
+                <div className="absolute -top-[72px] left-[168px] h-32 w-32 rounded-full bg-black md:block hidden">
                   <Image src={logo} alt="logo" />
                 </div>
               </div>
               {/* ---->>>> Haading  <<<<---- */}
               <h2 className="text-2xl text-center py-6 mt-10">
-                The Guardians of the Forest
+                Echo Forest NFT Mint
               </h2>
 
+              <p>Current mint : Wolf/Healer</p>
               <p>
-                Launch Date : February 3<sup>rd</sup> , 2023 @ 4pm EST Animal:
-                Wolf Class: Healer Quantity: 105 NFTs available Rarirty: 16th of
-                52
+                Mint Date : February 3<sup>rd</sup> - February 9<sup>th</sup>
               </p>
+
+              <p>Quantity Available : 105</p>
 
               <div className="flex justify-center">
                 <div className="mt-2 rounded-md py-2 px-4 box-border border border-black font-medium">
@@ -327,7 +328,7 @@ export const MintNFTs = ({ onClusterChange }) => {
                 </div>
               </div>
 
-              <h2 className="mt-4 text-sm">Total NFTs : 10000</h2>
+              <h2 className="mt-4 text-sm">Total NFTs : 10,000</h2>
 
               <button
                 className="rounded-md bg-black text-white py-3 px-14 box-border  mt-4"
@@ -355,6 +356,7 @@ export const MintNFTs = ({ onClusterChange }) => {
                 </p>
               )}
 
+              {/*
               <div className="my-4">
                 <br />* After the mint, NFTs will be listed on Magic Eden
                 between 48 to 72 hours. <br />* NFTs can be minted through the
@@ -364,9 +366,10 @@ export const MintNFTs = ({ onClusterChange }) => {
                 <br />
                 <strong>*Phantom Wallet only</strong>
               </div>
+             */}
 
               <div className="max-w-full mt-6 mb-6">
-                <h2 className="mb-1">How to setup the Phantom Wallet</h2>
+                <h2 className="mb-1">How to setup the Phantom Wallet URL</h2>
                 <a
                   href="https://www.youtube.com/watch?v=BiZJDWgxIvs&feature=emb_title"
                   target="_blank"
