@@ -29,7 +29,7 @@ body {
   background: url(../assets/images/backgroundImage.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-attachment: fixed;
   background-position: center;
   overflow-x: hidden;
 }

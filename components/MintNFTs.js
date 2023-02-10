@@ -325,6 +325,7 @@ export const MintNFTs = ({ onClusterChange }) => {
               </p>
 
               <p>Quantity Available : 50</p>
+              <p>NFT Number : 106-156</p>
 
               <div className="flex justify-center">
                 <div className="mt-2 rounded-md py-2 px-4 box-border border border-black font-medium">
