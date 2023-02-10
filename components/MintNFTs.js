@@ -315,12 +315,16 @@ export const MintNFTs = ({ onClusterChange }) => {
                 Echo Forest NFT Mint
               </h2>
 
-              <p>Current mint : Wolf/Healer</p>
+              <p>Current mint : Owl/Pirate</p>
               <p>
-                Mint Date : February 3<sup>rd</sup> - February 9<sup>th</sup>
+                Mint Time : 04:30 am UST{" "}
+                <span className="font-semibold">
+                  February 11<sup>th</sup> - February 18
+                  <sup>th</sup>
+                </span>
               </p>
 
-              <p>Quantity Available : 105</p>
+              <p>Quantity Available : 50</p>
 
               <div className="flex justify-center">
                 <div className="mt-2 rounded-md py-2 px-4 box-border border border-black font-medium">
